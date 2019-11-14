@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>SVG With Object Tags</title>
+</head>
+<body>
+    <h1>Using SVGs as Objects</h1>
+
+    <div class="svg-wrapper">
+        <object data="images/bottleGraphic.svg" type="image/svg+xml" class="svg-graphic"></object>
+    </div>
+
+    <div class="svg-wrapper" id="beer1">
+        <object data="images/beerBarrels.svg" type="image/svg+xml" class="svg-graphic"></object>
+    </div>
+
+    <div class="svg-wrapper" id="beer2">
+        <object data="images/qualityBeer.svg" type="image/svg+xml" class="svg-graphic"></object>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

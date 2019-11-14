@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.svg-wrapper {
+    height: 75vh;
+    border: thin dashed white;
+    padding: 20px;
+}
+
+.svg-graphic {
+    max-width: 25vw; /* vw means viewport width (scalable) */
+}
+
+.yellow {
+    fill: yellow;
+}
